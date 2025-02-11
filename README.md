@@ -2,6 +2,10 @@
  
 This project aims to reproduce Neville & Steele's DAC expansion card for the Apple Lisa (via MacWorks) which provided audio functionality similar to the Macintosh sound hardware. The LisaDAC does not, however, produce 100% compatibility with Mac sound hardware and, as such, has a reduced/degraded audio output when compared to a Macintosh. In some cases, calls made in MacWorks to what would be the Mac's sound hardware when using a LisaDAC may result in MacOS/MacWorks crashing.
 
+## Creator Commentary (10 February, 2025)
+
+Daris A. Nevil, the original creator of this hardware, has generously provided some high-resolution scans and commentary on the history and design of this card. These can be found in the [neville_and_steele](neville_and_steele) directory in the root of this repository. Many thanks to Mr. Nevil for reaching out and providing these! It was a pleasure hearing from you.
+
 ## ROM Version
 
 Both version 1.0 (v1_0.BIN) from the Neville & Steele card and 1.1 (v1_1.BIN) from the newer LDAC reproduction are included with this repository. These ROM dumps should be programmed on a 2716 EPROM or other compatible device.
